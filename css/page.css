@@ -1,0 +1,151 @@
+html, body { background:#f2f2f2; }
+
+#main { width:100%; min-width:982px; margin:0 auto; position:static; }
+#main .content { width:880px; margin:8px auto 18px; padding:40px 50px 32px; zoom:1; }
+#main .content .content { width:auto; padding:0; }
+.content:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+/* fonts */
+#main { font-size:1.167em; line-height:1.8em; word-spacing:-1px; } /* 14px/20px */
+#main h1 { font-size:2.0em; line-height:1.1666em; margin-bottom:10px; font-weight:normal; } /* 24px/28px */
+#main h2 { font-size:1.2857em; line-height:1.3888em; margin-bottom:7px; } /* 18px/25px */
+#main h3	{ font-size:1.1428em; line-height:1.25em; margin-bottom:7px; }/* 16px/20px */
+#main h4 { font-size:1em; margin-bottom:7px; } /* 14px/20px */
+
+#main h1 img,
+#main h2 img { display:block; margin:0; }
+
+#main .small { font-size:.8571em; line-height:1.5em; } /* 12px/18px */
+#main .intro { font-size:1.15em; line-height:1.5em; color:#888; font-weight:normal; } /* 18px/25px */
+#main .caption { color:#666; }
+
+#main .hero h1 { margin-bottom:5px; }
+#main .hero h2 { margin-bottom:13px; }
+
+
+/* layout */
+#main .row { margin-bottom:70px; }
+#main .row.last-child { margin-bottom:0; } /* note to come from kyle */
+
+#main .column { *display:inline; }
+#main .grid2col .column { width:395px; }
+
+#main .block { display:block; }
+#main .inline { display:inline; }
+#main .left { float:left; }
+#main .right { float:right; }
+#main .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+
+#main .flushpad,
+#main .padright { padding-right:50px; }
+
+#main .flushpad,
+#main .padleft { padding-left:50px; }
+
+#main .flushpad,
+#main .flushright { margin-right:-50px; }
+
+#main .flushpad,
+#main .flushleft { margin-left:-50px; }
+
+#main .flushtop,
+#main .flushbottom,
+#main .flushright,
+#main .flushleft,
+#main .relative { _position:relative; _z-index:1; _zoom:1; }
+
+/* links */
+#main a { cursor:pointer; }
+#main a.block { color:#000; }
+#main a.wrap { text-decoration:none; }
+#main a.wrap:hover span { text-decoration:underline; cursor:pointer; }
+
+
+/* aesthetic */
+#main .shadow { border:1px solid #ddd; -webkit-box-shadow:0 1px 4px rgba(0,0,0,.4); -moz-box-shadow:0 1px 4px rgba(0,0,0,.4); box-shadow:0 1px 4px rgba(0,0,0,.4); }
+#main .inset { border:1px solid #ddd; -webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,.4); -moz-box-shadow:inset 0 1px 4px rgba(0,0,0,.4); box-shadow:inset 0 1px 4px rgba(0,0,0,.4); }
+
+#main .shadow:nth-child(1n),
+#main .inset:nth-child(1n) { border:none; }
+
+#main .gradient {
+	background:#fff;
+	background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
+	background:-moz-linear-gradient(top, #fff, #f2f2f2);
+}
+
+#main .divider-down { margin-left:-50px; margin-right:-50px; padding-left:50px; padding-right:50px; background:url(/images/dividerdown.jpg) no-repeat 0 0; background-size:980px 132px; }
+
+/* scrolltiles */
+#main .scrolltiles { width:840px; margin:-5px; text-align:center; }
+
+#main .scrolltiles li,
+#main .scrolltiles li a { display:-moz-table-cell; display:inline-block; *display:inline; *zoom:1; }
+
+#main .scrolltiles li { margin:5px 4px 8px; vertical-align:top; }
+
+#main .scrolltiles li a { width:210px; min-height:125px; border:1px solid #ddd; color:#000; font-weight:bold; text-decoration:none;
+	-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+	background:#f3f3f3;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f0f0f0));
+	background:-moz-linear-gradient(100% 100% 90deg, #f0f0f0, #fff);
+	-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25) inset; -moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25) inset; box-shadow:0 1px 3px rgba(0, 0, 0, 0.25) inset;
+}
+#main .scrolltiles li a:hover {
+	background:#e8e8e8;
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#e2e2e2));
+	background:-moz-linear-gradient(top, #fff, #e2e2e2);
+}
+#main .scrolltiles li a:nth-child(1n) { border:none; }
+#main .scrolltiles li a img { margin-top:20px; margin-bottom:7px; }
+
+#main .scrolltiles span { display:block; }
+
+#main .scrolltiles .five li a { width:128px; }
+
+/* Footers
+------------------------*/
+/* sosumi */
+.sosumi { width:940px; margin:18px auto; padding:0 20px; }
+.sosumi a { color:#333; }
+.sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
+.sosumi ul { margin:0; padding-left:6px; }
+.sosumi li { padding-bottom:5px; }
+.sosumi p { margin:0; padding-bottom:5px; }
+ol.sosumi { width:898px; margin:18px auto; }
+
+
+/* Page Specific
+------------------------*/
+#overview .content { width:830px; padding:30px 75px 10px; }
+#overview .content .violator { position:absolute; top:0; left:0; }
+
+#overview .hero h1 { margin-bottom:13px; text-align:center; }
+#overview .hero .intro { margin-bottom:13px; font-size:1.55em; line-height:1.25em; color:#777; text-align:center; }
+#overview .hero .caption { margin-bottom:23px; text-align:center; }
+
+#overview .scrolltiles { margin-bottom:45px; font-size:.9em; line-height:1.3846em; }
+#overview .scrolltiles li { *margin-bottom:2px; }
+#overview .scrolltiles li.big img { margin-top:19px; margin-bottom:5px; }
+#overview .scrolltiles li.twoline { line-height:1.1em; }
+#overview .scrolltiles li.twoline a { _padding-bottom:8px; }
+#overview .scrolltiles li.twoline img { margin-bottom:1px; }
+#overview .scrolltiles li a { _padding-bottom:15px; }
+
+#overview .flushpad,
+#overview .divider-down { margin-left:-75px; margin-right:-75px; padding-left:75px; padding-right:75px; }
+
+#overview .across { margin-left:-75px; margin-right:-75px; }
+
+#overview .row { padding-top:25px; margin-bottom:40px; zoom:1; }
+#overview .row { margin-bottom:50px; }
+#overview .row h1 { margin-bottom:15px; }
+#overview .row p { margin-bottom:0; }
+#overview .row ul { list-style:square inside; }
+
+#stats table { width:100%; border:1px solid #000; border-collapse:collapse; border-spacing:0; }
+#stats table caption { margin:0; padding:8px 20px; background-color: #ddd; text-align:center; border:1px solid #000; border-bottom:none; font-size:1.1428em; }
+#stats table th.centurion { background:url(/images/centurion.jpg) no-repeat 4px center; }
+#stats table th.double-centurion { background:url(/images/double-centurion.jpg) no-repeat 4px center; }
+#stats table tr.heading { background-color: #eee; font-style: bold; }
+#stats table th, #stats table td { margin:0; padding:8px 20px; text-align:center; border-bottom:1px solid #222; }
