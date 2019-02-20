@@ -153,4 +153,5 @@ ol.sosumi { width:898px; margin:18px auto; }
 #upcoming table { width:100%; border:1px solid #000; border-collapse:collapse; border-spacing:0; }
 #upcoming table caption { margin:0; padding:8px 20px; background-color: #ddd; text-align:center; border:1px solid #000; border-bottom:none; font-size:1.1428em; }
 #upcoming table tr.heading { background-color: #eee; font-style: bold; }
+#upcoming table tr.next {background-color: #ffd700; }
 #upcoming table th, #upcoming table td { margin:0; padding:8px 20px; text-align:center; border-bottom:1px solid #222; }
