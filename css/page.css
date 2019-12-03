@@ -154,6 +154,6 @@ ol.sosumi { width:898px; margin:18px auto; }
 #upcoming table caption { margin:0; padding:8px 20px; background-color: #ddd; text-align:center; border:1px solid #000; border-bottom:none; font-size:1.1428em; }
 #upcoming table tr.heading { background-color: #eee; font-style: bold; }
 #upcoming table tr.next { background-color: #ffd700; }
-#upcoming table tr.xmas { background:url(/images/xmas-blue-ball-small.png) no-repeat 4px center; }
+#upcoming table tr.xmas th { background:url(/images/xmas-blue-ball-small.png) no-repeat 4px center; }
 #upcoming table th, #upcoming table td { margin:0; padding:8px 20px; text-align:center; border-bottom:1px solid #222; }
 #upcoming table td.bday { background:url(/images/birthday.png) no-repeat 99% center; }
