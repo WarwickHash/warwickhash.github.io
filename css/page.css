@@ -157,3 +157,4 @@ ol.sosumi { width:898px; margin:18px auto; }
 #upcoming table tr.xmas th { background:url(/images/xmas-ball-blue-small.png) no-repeat 4px center; }
 #upcoming table th, #upcoming table td { margin:0; padding:8px 20px; text-align:center; border-bottom:1px solid #222; }
 #upcoming table td.bday { background:url(/images/birthday.png) no-repeat 99% center; }
+#upcoming table th.shamrock { background:url(/images/shamrock.png) no-repeat 1% center; }
