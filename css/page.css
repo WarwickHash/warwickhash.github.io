@@ -72,8 +72,6 @@ html, body { background:#f2f2f2; }
 	background:-moz-linear-gradient(top, #fff, #f2f2f2);
 }
 
-#main .divider-down { margin-left:-50px; margin-right:-50px; padding-left:50px; padding-right:50px; }
-
 /* scrolltiles */
 #main .scrolltiles { margin:-5px; text-align:center; }
 
@@ -115,7 +113,7 @@ ol.sosumi { width:898px; margin:18px auto; }
 
 /* Page Specific
 ------------------------*/
-#overview .content { padding:30px 75px 10px; }
+#overview .content { padding:30px 5% 10px; }
 #overview .content .violator { position:absolute; top:0; left:0; }
 
 #overview .hero h1 { margin-bottom:13px; text-align:center; }
