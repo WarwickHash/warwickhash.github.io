@@ -130,13 +130,9 @@ ol.sosumi { width:898px; margin:18px auto; }
 #overview .scrolltiles li.twoline img { margin-bottom:1px; }
 #overview .scrolltiles li a { _padding-bottom:15px; }
 
-#overview .flushpad,
-#overview .divider-down { margin-left:-75px; margin-right:-75px; padding-left:75px; padding-right:75px; }
-
 #overview .across { margin-left:-75px; margin-right:-75px; }
 
 #overview .row { padding-top:25px; margin-bottom:40px; zoom:1; }
-#overview .row { margin-bottom:50px; }
 #overview .row h1 { margin-bottom:15px; }
 #overview .row p { margin-bottom:0; }
 #overview .row ul { list-style:square inside; }
