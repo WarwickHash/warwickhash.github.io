@@ -1,7 +1,5 @@
 html, body { background:#f2f2f2; }
 
-#main { width:100%; min-width:982px; margin:0 auto; position:static; }
-#main .content { width:880px; margin:8px auto 18px; padding:40px 50px 32px; zoom:1; }
 #main .content .content { width:auto; padding:0; }
 .content:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
 
@@ -74,10 +72,10 @@ html, body { background:#f2f2f2; }
 	background:-moz-linear-gradient(top, #fff, #f2f2f2);
 }
 
-#main .divider-down { margin-left:-50px; margin-right:-50px; padding-left:50px; padding-right:50px; background:url(/images/dividerdown.jpg) no-repeat 0 0; background-size:980px 132px; }
+#main .divider-down { margin-left:-50px; margin-right:-50px; padding-left:50px; padding-right:50px; }
 
 /* scrolltiles */
-#main .scrolltiles { width:840px; margin:-5px; text-align:center; }
+#main .scrolltiles { margin:-5px; text-align:center; }
 
 #main .scrolltiles li,
 #main .scrolltiles li a { display:-moz-table-cell; display:inline-block; *display:inline; *zoom:1; }
@@ -106,7 +104,7 @@ html, body { background:#f2f2f2; }
 /* Footers
 ------------------------*/
 /* sosumi */
-.sosumi { width:940px; margin:18px auto; padding:0 20px; }
+.sosumi { margin:18px auto; padding:0 20px; }
 .sosumi a { color:#333; }
 .sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
 .sosumi ul { margin:0; padding-left:6px; }

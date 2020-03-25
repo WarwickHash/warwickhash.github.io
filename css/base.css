@@ -29,18 +29,13 @@ img.flushright { margin-right: -20px; }
 .replaced { display: block; width: 1px; height: 1px; outline: none; overflow: hidden; text-indent: -9999px; }
 #omniture, #top { position: absolute; top: 0; }
 #container { width: 980px; margin: 0 auto; position: relative; }
-#main { width: 100%; position: relative; }
-#content { background-image: url(/images/whhh-small-bear.png); background-position: 75px 30px; background-repeat: no-repeat; padding: 18px 20px; position: relative; color: #333; }
+#content { background-image: url(/images/whhh-small-bear.png); background-position: 75px 30px; background-repeat: no-repeat; position: relative; color: #333; }
 #breadcrumb { clear: both; text-align: center; margin: 18px auto; clear: both; font-size: 10px; color: #686868; }
 
 
 
-.content { background: #fff; border: 1px solid; border-color: #e5e5e5 #dbdbdb #d2d2d2; -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; box-shadow: rgba(0,0,0,0.3) 0 1px 3px; }
+.content { background: #fff; }
 .content:nth-child(1n) { border: none; } /* reset border for smart browsers */
-
-.content,
-.rounded,
-.article .box { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -khtml-border-radius: 4px; }
 
 .shadow { -webkit-box-shadow: rgba(0,0,0,0.35) 0 1px 3px; -moz-box-shadow: rgba(0,0,0,0.35) 0 1px 3px; box-shadow: rgba(0,0,0,0.35) 0 1px 3px; }
 img.shadow { padding: 5px; background: #fff; margin-bottom: 2px; *border: 1px solid #e2e2e2; _position: relative; }
