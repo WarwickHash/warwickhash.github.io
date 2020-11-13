@@ -116,7 +116,7 @@ ol.sosumi { width:898px; margin:18px auto; }
 #overview .content { padding:30px 5% 10px; }
 #overview .content .violator { position:absolute; top:0; left:0; }
 
-#overview .hero h1 { margin-bottom:13px; text-align:center; }
+#overview .hero h1 { margin-bottom:13px; text-align:center; text-shadow: 0 2px #eee; }
 #overview .hero .intro { margin-bottom:13px; font-size:1.55em; line-height:1.25em; color:#777; text-align:center; }
 #overview .hero .caption { margin-bottom:23px; text-align:center; }
 
