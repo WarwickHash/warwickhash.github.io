@@ -139,6 +139,7 @@ ol.sosumi { width:898px; margin:18px auto; }
 #stats table caption { margin:0; padding:8px 20px; background-color: #ddd; text-align:center; border:1px solid #000; border-bottom:none; font-size:1.1428em; }
 #stats table th.centurion { background:url(/images/centurion.jpg) no-repeat 4px center; }
 #stats table th.double-centurion { background:url(/images/double-centurion.jpg) no-repeat 4px center; }
+#stats table th.triple-centurion { background:url(/images/triple-centurion.jpg) no-repeat 4px center; }
 #stats table tr.heading { background-color: #eee; font-style: bold; }
 #stats table th, #stats table td { margin:0; padding:8px 20px; text-align:center; border-bottom:1px solid #222; }
 #stats table th em { background-color:#fff; font-weight:bold; padding:2px; }
