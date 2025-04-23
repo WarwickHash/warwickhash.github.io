@@ -77,8 +77,8 @@ sup { padding-left: 1px; font-size: 10px !important; font-weight: normal !import
 sup, sup a { color:#666; }
 sup a:hover { color:#08c; text-decoration:none; }
 abbr { border: 0; }
-.sosumi { font-size: 10px !important; line-height:1.5; color:#888; }
-.sosumi_features { font-size: 10px !important; line-height:1.5; color:#888; }
+.sosumi { font-size: 10px !important; line-height:1.5; color:#333; }
+.sosumi_features { font-size: 10px !important; line-height:1.5; color:#333; }
 
 h1,h2,h3,h4,h5,h6,strong { color:#000; }
 h1,h2,h3,h4 { font-weight: bold; }
